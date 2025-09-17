@@ -11,11 +11,11 @@ const Hero = () => {
           backgroundPosition: 'center',
         }}
       />
-      <div className="relative z-10 flex flex-col items-center justify-center gap-2 text-center px-6">
+      <div className="relative z-10 flex flex-col items-center justify-center text-center px-6">
         <img 
           src={logo} 
           alt="Mullins Digital Ventures" 
-          className="w-[85%] max-w-4xl object-contain filter drop-shadow-lg mix-blend-screen opacity-95 mb-4"
+          className="w-[85%] max-w-4xl object-contain filter drop-shadow-lg mix-blend-screen opacity-95 mb-1"
         />
         <p className="text-white/80 text-lg mb-2 mt-0">
           Transforming Digital Landscapes
