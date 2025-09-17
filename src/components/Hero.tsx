@@ -16,15 +16,16 @@ const Hero = () => {
         <img 
           src={logo} 
           alt="Mullins Digital Ventures" 
-          className="w-3/5 mb-16 mx-auto filter drop-shadow-lg mix-blend-screen opacity-95 object-contain"
+          className="w-[85%] mx-auto filter drop-shadow-lg mix-blend-screen opacity-95 object-contain"
           style={{
             background: 'transparent',
             border: 'none',
             padding: 0,
-            margin: 0
+            margin: 0,
+            marginBottom: '25px'
           }}
         />
-        <p className="text-xl md:text-2xl text-white/90 leading-relaxed max-w-3xl mx-auto">
+        <p className="text-xl md:text-2xl text-white/90 leading-relaxed mx-auto font-medium" style={{ width: '42.5%' }}>
           Building global ventures at the intersection of AI, digital products, and media innovation
         </p>
       </div>
