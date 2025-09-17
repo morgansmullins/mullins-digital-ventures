@@ -12,8 +12,16 @@ const Hero = () => {
           backgroundPosition: 'center',
         }}
       />
-      <div className="relative z-10 flex flex-col items-center justify-center text-center px-6 max-w-6xl mx-auto">
-        <div className="flex flex-col items-center justify-center">
+      <div className="relative z-10 text-center px-6 max-w-6xl mx-auto">
+        <div 
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: '15px'
+          }}
+        >
           <img 
             src={logo} 
             alt="Mullins Digital Ventures" 
@@ -25,7 +33,7 @@ const Hero = () => {
               margin: 0
             }}
           />
-          <p className="text-xl md:text-2xl text-white/90 leading-relaxed font-medium text-center mt-3 max-w-2xl">
+          <p className="text-xl md:text-2xl text-white/90 leading-relaxed font-medium text-center max-w-2xl" style={{ margin: 0, padding: 0 }}>
             Building global ventures at the intersection of AI, digital products, and media innovation
           </p>
         </div>
