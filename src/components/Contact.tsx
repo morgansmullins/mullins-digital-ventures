@@ -58,10 +58,6 @@ const Contact = () => {
                   <h4 className="font-semibold text-brand-navy mb-2">Location</h4>
                   <p className="text-brand-slate">Wyoming, USA</p>
                 </div>
-                <div>
-                  <h4 className="font-semibold text-brand-navy mb-2">Business Hours</h4>
-                  <p className="text-brand-slate">Monday - Friday: 9:00 AM - 6:00 PM MST</p>
-                </div>
               </div>
             </div>
           </div>

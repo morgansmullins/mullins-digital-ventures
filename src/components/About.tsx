@@ -6,12 +6,7 @@ const About = () => {
           About Us
         </h2>
         <p className="text-lg leading-relaxed text-brand-slate">
-          Mullins Digital Ventures LLC is a forward-thinking company registered in Wyoming, USA, 
-          dedicated to creating innovative digital solutions that drive sustainable growth. We specialize 
-          in developing cutting-edge AI technologies, digital products, and media platforms that empower 
-          businesses and individuals to thrive in the digital economy. Our commitment to innovation, 
-          combined with our focus on environmental and social responsibility, positions us at the 
-          forefront of the digital transformation landscape.
+          Mullins Digital Ventures LLC is a U.S.-registered company in Wyoming, focused on building AI technologies, digital products, and media platforms that empower businesses and individuals in the digital economy. Our emphasis on innovation and reliability positions us as a trusted partner in the global marketplace.
         </p>
       </div>
     </section>

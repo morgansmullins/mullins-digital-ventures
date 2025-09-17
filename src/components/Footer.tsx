@@ -6,7 +6,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">Mullins Digital Ventures</h3>
             <p className="text-white/80">
-              Building global ventures at the intersection of AI, digital products, and media innovation.
+              Building ventures at the intersection of AI, digital products, and media innovation.
             </p>
           </div>
           <div>
