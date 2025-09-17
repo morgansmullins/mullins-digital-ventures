@@ -17,6 +17,12 @@ const Hero = () => {
           src={logo} 
           alt="Mullins Digital Ventures" 
           className="w-[300px] h-[150px] mb-12 mx-auto filter drop-shadow-lg mix-blend-screen opacity-95 object-contain"
+          style={{
+            background: 'transparent',
+            border: 'none',
+            padding: 0,
+            margin: 0
+          }}
         />
         <p className="text-xl md:text-2xl text-white/90 leading-relaxed max-w-3xl mx-auto">
           Building global ventures at the intersection of AI, digital products, and media innovation
