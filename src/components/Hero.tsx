@@ -13,21 +13,23 @@ const Hero = () => {
         }}
       />
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
-        <img 
-          src={logo} 
-          alt="Mullins Digital Ventures" 
-          className="w-[85%] mx-auto filter drop-shadow-lg mix-blend-screen opacity-95 object-contain"
-          style={{
-            background: 'transparent',
-            border: 'none',
-            padding: 0,
-            margin: 0,
-            marginBottom: '25px'
-          }}
-        />
-        <p className="text-xl md:text-2xl text-white/90 leading-relaxed mx-auto font-medium" style={{ width: '42.5%' }}>
-          Building global ventures at the intersection of AI, digital products, and media innovation
-        </p>
+        <div className="flex flex-col items-center">
+          <img 
+            src={logo} 
+            alt="Mullins Digital Ventures" 
+            className="w-[85%] filter drop-shadow-lg mix-blend-screen opacity-95 object-contain"
+            style={{
+              background: 'transparent',
+              border: 'none',
+              padding: 0,
+              margin: 0,
+              marginBottom: '15px'
+            }}
+          />
+          <p className="text-xl md:text-2xl text-white/90 leading-relaxed font-medium text-center" style={{ width: '42.5%' }}>
+            Building global ventures at the intersection of AI, digital products, and media innovation
+          </p>
+        </div>
       </div>
     </section>
   );
