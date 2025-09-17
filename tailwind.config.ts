@@ -14,6 +14,16 @@ export default {
     },
     extend: {
       colors: {
+        // Brand Colors
+        brand: {
+          navy: "hsl(var(--brand-navy))",
+          blue: "hsl(var(--brand-blue))",
+          slate: "hsl(var(--brand-slate))",
+          "gray-light": "hsl(var(--brand-gray-light))",
+          white: "hsl(var(--brand-white))",
+        },
+        
+        // System Colors
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

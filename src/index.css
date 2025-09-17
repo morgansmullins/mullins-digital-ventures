@@ -2,40 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Mullins Digital Ventures Design System */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-
+    /* Core Brand Colors */
+    --brand-navy: 213 63% 31%;
+    --brand-blue: 213 94% 68%;
+    --brand-slate: 215 16% 47%;
+    --brand-gray-light: 210 40% 96%;
+    --brand-white: 0 0% 100%;
+    
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--brand-navy)), hsl(var(--brand-blue)));
+    --gradient-card: linear-gradient(to bottom, hsl(var(--brand-white)), hsl(var(--brand-gray-light)));
+    
+    /* Shadows */
+    --shadow-card: 0 4px 6px -1px hsl(var(--brand-navy) / 0.1);
+    --shadow-hover: 0 10px 15px -3px hsl(var(--brand-navy) / 0.15);
+    
+    /* System Colors */
+    --background: var(--brand-white);
+    --foreground: var(--brand-navy);
+    
+    --card: var(--brand-white);
+    --card-foreground: var(--brand-navy);
+    
+    --popover: var(--brand-white);
+    --popover-foreground: var(--brand-navy);
+    
+    --primary: var(--brand-navy);
+    --primary-foreground: var(--brand-white);
+    
+    --secondary: var(--brand-gray-light);
+    --secondary-foreground: var(--brand-navy);
+    
+    --muted: var(--brand-gray-light);
+    --muted-foreground: var(--brand-slate);
+    
+    --accent: var(--brand-blue);
+    --accent-foreground: var(--brand-white);
+    
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
-
+    --destructive-foreground: var(--brand-white);
+    
+    --border: 215 25% 88%;
+    --input: 215 25% 88%;
+    --ring: var(--brand-blue);
+    
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
@@ -100,6 +114,25 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
+    font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+}
+
+@layer components {
+  .hero-gradient {
+    background: var(--gradient-hero);
+  }
+  
+  .card-shadow {
+    box-shadow: var(--shadow-card);
+  }
+  
+  .card-shadow-hover {
+    box-shadow: var(--shadow-hover);
+  }
+  
+  .smooth-transition {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
