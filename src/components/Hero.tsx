@@ -1,4 +1,5 @@
 import heroBackground from '@/assets/hero-background.jpg';
+import logo from '@/assets/logo.png';
 
 const Hero = () => {
   return (
@@ -12,9 +13,11 @@ const Hero = () => {
         }}
       />
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
-        <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight">
-          Mullins Digital Ventures
-        </h1>
+        <img 
+          src={logo} 
+          alt="Mullins Digital Ventures" 
+          className="h-32 md:h-40 w-auto mb-6 mx-auto"
+        />
         <p className="text-xl md:text-2xl text-white/90 leading-relaxed max-w-3xl mx-auto">
           Building global ventures at the intersection of AI, digital products, and media innovation
         </p>
