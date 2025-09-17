@@ -16,7 +16,7 @@ const Hero = () => {
         <img 
           src={logo} 
           alt="Mullins Digital Ventures" 
-          className="h-64 md:h-80 w-auto mb-8 mx-auto drop-shadow-2xl filter brightness-110"
+          className="w-[300px] h-[150px] mb-12 mx-auto drop-shadow-2xl filter brightness-110 object-contain"
         />
         <p className="text-xl md:text-2xl text-white/90 leading-relaxed max-w-3xl mx-auto">
           Building global ventures at the intersection of AI, digital products, and media innovation
