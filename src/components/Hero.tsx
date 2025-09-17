@@ -16,7 +16,7 @@ const Hero = () => {
         <img 
           src={logo} 
           alt="Mullins Digital Ventures" 
-          className="w-[450px] h-[225px] mb-16 mx-auto filter drop-shadow-lg mix-blend-screen opacity-95 object-contain"
+          className="w-3/5 mb-16 mx-auto filter drop-shadow-lg mix-blend-screen opacity-95 object-contain"
           style={{
             background: 'transparent',
             border: 'none',
