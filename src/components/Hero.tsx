@@ -18,7 +18,7 @@ const Hero = () => {
           alt="Mullins Digital Ventures" 
           className="w-[85%] max-w-4xl object-contain filter drop-shadow-lg mix-blend-screen opacity-95"
         />
-        <p className="text-xl md:text-2xl text-white/90 leading-relaxed font-medium max-w-2xl mt-4 text-center">
+        <p className="text-xl md:text-2xl text-white/90 leading-relaxed font-medium max-w-2xl mt-3 text-center">
           Building global ventures at the intersection of AI, digital products, and media innovation
         </p>
       </div>
