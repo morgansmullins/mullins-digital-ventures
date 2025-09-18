@@ -4,7 +4,7 @@ import About from '@/components/About';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 const Index = () => {
-  return <div className="-bottom-11 my-0 py-0 px-[5px] mx-0">
+  return <div className="-bottom-11 my-0 py-0 px-0 mx-[7px]">
       <Hero />
       <Services />
       <About />
