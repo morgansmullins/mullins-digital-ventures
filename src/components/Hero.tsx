@@ -1,7 +1,7 @@
 import heroBackground from '@/assets/hero-background.jpg';
 import logo from '@/assets/logo.svg';
 const Hero = () => {
-  return <section className="relative min-h-screen flex items-center justify-center hero-gradient overflow-hidden">
+  return <section className="relative min-h-screen flex items-start justify-center hero-gradient pt-64 overflow-hidden">
       <div style={{
       backgroundImage: `url(${heroBackground})`,
       backgroundSize: 'cover',
