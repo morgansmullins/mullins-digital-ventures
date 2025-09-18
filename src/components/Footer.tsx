@@ -5,6 +5,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
             <h3 className="text-xl font-semibold mb-4">Mullins Digital Ventures</h3>
+            <p className="text-white/80 mb-2">
+              Transforming the Digital landscape
+            </p>
             <p className="text-white/80">
               Building ventures at the intersection of AI, digital products, and media innovation.
             </p>
