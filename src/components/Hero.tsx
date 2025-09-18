@@ -7,12 +7,12 @@ const Hero = () => {
       backgroundSize: 'cover',
       backgroundPosition: 'center'
     }} className="absolute inset-0 opacity-20 mx-0 px-0 py-0 my-0" />
-      <div className="relative z-10 flex flex-col items-center justify-center gap-0 text-center px-0 opacity-72 my-2 mx-[18px]">
+      <div className="relative z-10 flex flex-col items-center justify-center gap-0 text-center opacity-72 mx-[11px] px-[2px] py-[15px] my-0">
         <img src={logo} alt="Mullins Digital Ventures" className="w-[85%] max-w-4xl object-contain filter drop-shadow-xl mix-blend-screen opacity-120 pt-24" />
-        <p className="text-white/80 mb-0 mt-0 font-normal my-px mx-[3px] px-[240px] py-0 text-4xl">
+        <p className="text-white/80 mb-0 mt-0 font-normal text-4xl my-[3px] mx-[3px] px-[160px] py-0">
           Transforming Digital Landscapes
         </p>
-        <p className="text-xl text-white/90 leading-relaxed font-medium max-w-2xl mt-0 text-center px-0 py-[43px] my-px mx-[124px] md:text-3xl">
+        <p className="text-xl text-white/90 leading-relaxed font-medium max-w-2xl mt-0 text-center px-0 py-[43px] my-px mx-[184px] md:text-3xl">
           Building global ventures at the intersection of AI, digital products, and media innovation
         </p>
       </div>
