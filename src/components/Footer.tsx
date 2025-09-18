@@ -32,6 +32,9 @@ const Footer = () => {
               <a href="/terms" className="block text-white/80 hover:text-white smooth-transition">
                 Terms of Service
               </a>
+              <a href="/cookies" className="block text-white/80 hover:text-white smooth-transition">
+                Cookie & Disclaimer Policy
+              </a>
             </div>
           </div>
         </div>

@@ -1,0 +1,66 @@
+const Cookies = () => {
+  return (
+    <div className="min-h-screen bg-background py-20 px-6">
+      <div className="max-w-4xl mx-auto">
+        <h1 className="text-4xl font-bold mb-8 text-brand-navy">Cookie & Disclaimer Policy</h1>
+
+        <p className="mb-6"><strong>Last Updated:</strong> January 18, 2025</p>
+
+        <h2 className="text-2xl font-semibold mt-8 mb-4">Cookie Policy</h2>
+        <p className="mb-6">
+          This website uses cookies to enhance your browsing experience and provide personalized content. 
+          Cookies are small text files stored on your device that help us understand how you use our site.
+        </p>
+
+        <h3 className="text-xl font-semibold mt-6 mb-2">Types of Cookies We Use</h3>
+        <ul className="list-disc pl-6 space-y-2 mb-6">
+          <li><strong>Essential Cookies:</strong> Required for basic website functionality</li>
+          <li><strong>Analytics Cookies:</strong> Help us understand website usage and performance</li>
+          <li><strong>Preference Cookies:</strong> Remember your settings and preferences</li>
+        </ul>
+
+        <h3 className="text-xl font-semibold mt-6 mb-2">Managing Cookies</h3>
+        <p className="mb-6">
+          You can control and manage cookies through your browser settings. However, disabling certain cookies 
+          may affect website functionality.
+        </p>
+
+        <h2 className="text-2xl font-semibold mt-8 mb-4">Disclaimer</h2>
+        <p className="mb-6">
+          The information on this website is provided for general informational purposes only. While we strive 
+          to keep the information accurate and up-to-date, we make no representations or warranties of any kind 
+          about the completeness, accuracy, reliability, or suitability of the information.
+        </p>
+
+        <h3 className="text-xl font-semibold mt-6 mb-2">Professional Advice</h3>
+        <p className="mb-6">
+          Any reliance you place on the information on this website is strictly at your own risk. We recommend 
+          seeking professional advice for specific business, legal, or technical matters.
+        </p>
+
+        <h3 className="text-xl font-semibold mt-6 mb-2">External Links</h3>
+        <p className="mb-6">
+          Our website may contain links to external sites. We are not responsible for the content, privacy 
+          policies, or practices of these external websites.
+        </p>
+
+        <h2 className="text-2xl font-semibold mt-8 mb-4">Contact Us</h2>
+        <p className="mb-6">
+          For questions about this Cookie & Disclaimer Policy, please contact us:
+        </p>
+        <ul className="list-disc pl-6 space-y-2 mb-6">
+          <li><strong>Email:</strong> admin@mullinsdigitalventures.com</li>
+          <li><strong>Address:</strong> Mullins Digital Ventures LLC, Wyoming, USA</li>
+        </ul>
+
+        <p className="mt-8">
+          <a href="/" className="text-brand-blue hover:text-brand-navy smooth-transition">
+            ← Return to Home
+          </a>
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default Cookies;
