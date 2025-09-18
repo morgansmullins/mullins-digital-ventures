@@ -32,16 +32,16 @@ const Contact = () => {
   };
 
   return (
-    <section className="py-20 px-6 bg-brand-gray-light" id="contact">
+    <section className="py-12 md:py-20 px-4 md:px-6 bg-brand-gray-light" id="contact">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-center mb-16 text-brand-navy">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 md:mb-16 text-brand-navy">
           Contact Us
         </h2>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12">
           {/* Contact Information */}
-          <div className="space-y-8">
+          <div className="space-y-6 md:space-y-8">
             <div>
-              <h3 className="text-2xl font-semibold mb-6 text-brand-navy">
+              <h3 className="text-xl md:text-2xl font-semibold mb-4 md:mb-6 text-brand-navy">
                 Get In Touch
               </h3>
               <div className="space-y-4">
