@@ -1,7 +1,7 @@
 import heroBackground from '@/assets/hero-background.jpg';
 import logo from '@/assets/logo.svg';
 const Hero = () => {
-  return <section className="-bottom-11 -bottom-12 flex items-center justify-center hero-gradient overflow-hidden px-0 mx-0 my-0 rounded-md">
+  return <section className="mx-0 mx-0 py-0 ">
       <div style={{
       backgroundImage: `url(${heroBackground})`,
       backgroundSize: 'cover',
