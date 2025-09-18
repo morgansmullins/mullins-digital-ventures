@@ -8,7 +8,7 @@ const Hero = () => {
       backgroundPosition: 'center'
     }} className="absolute inset-0 opacity-20 px-0 my-[2000px] mx-[2000px]" />
       <div className="relative z-10 flex flex-col items-center justify-center gap-1 text-center rounded-none px-[200px] py-[3000px] mx-[20px] my-[1000px]">
-        <img src={logo} alt="Mullins Digital Ventures" className="w-[85%] -bottom-11 -bottom-1.5 filter drop-shadow-lg mix-blend-screen opacity-95 mb-2" />
+        <img src={logo} alt="Mullins Digital Ventures" className="m-1.5 fill-transparent fill-transparent mix-blend-screen opacity-95 mb-2" />
  <p className="-bottom-0 from-teal-800 text-center font-normal mx-[4px] my-[16px] px-[51px] py-[9px] text-6xl">
   Transforming Digital Landscapes
       </p>
