@@ -43,6 +43,9 @@ const Footer = () => {
           <p className="text-white/80">
             © 2025 Mullins Digital Ventures LLC — Registered in Wyoming, USA
           </p>
+          <p className="text-white/80 mt-2 text-sm">
+            This site may use AI-generated content. Outputs are provided "as is" and should not be relied upon as professional advice.
+          </p>
         </div>
       </div>
     </footer>
