@@ -7,7 +7,7 @@ const Hero = () => {
       backgroundSize: 'cover',
       backgroundPosition: 'center'
     }} className="absolute inset-0 opacity-20 mx-0 px-0 py-0 my-0" />
-      <div className="relative z-10 flex flex-col items-center justify-center gap-0 text-center px-0 opacity-72  my-2 mx-0">
+      <div className="relative min-h-screen flex items-center justify-center hero-gradient\n">
         <img src={logo} alt="Mullins Digital Ventures" className="w-[85%] max-w-4xl object-contain filter drop-shadow-xl mix-blend-screen opacity-120 pt-24" />
         <p className="text-white/80 mb-0 mt-0 font-normal text-3xl my-px mx-[3px] px-[240px] py-0">
           Transforming Digital Landscapes
