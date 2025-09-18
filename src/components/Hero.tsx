@@ -7,8 +7,8 @@ const Hero = () => {
       backgroundSize: 'cover',
       backgroundPosition: 'center'
     }} className="absolute inset-0 opacity-20 mx-0 px-0" />
-      <div className="relative z-10 flex flex-col items-center justify-center gap-1 text-center py-0 mx-[3px] my-[3px] px-[8px] rounded-full">
-        <img src={logo} alt="Mullins Digital Ventures" className="w-[85%] max-w-4xl object-contain filter drop-shadow-lg mix-blend-screen opacity-95 mb-2" />
+      <div className="relative z-10 flex flex-col items-center justify-center gap-1 text-center py-80 mx-[3px] my-[3px] px-[8px] rounded-none">
+        <img src={logo} alt="Mullins Digital Ventures" className="w-[85%] -bottom-11 -bottom-1.5 filter drop-shadow-lg mix-blend-screen opacity-95 mb-2" />
  <p className="text-white/80 mb-1 mt-0 py-0 text-3xl font-normal mx-[2px] px-[34px] my-[48px]">
   Transforming Digital Landscapes
       </p>
