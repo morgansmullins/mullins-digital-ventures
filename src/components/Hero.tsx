@@ -1,7 +1,7 @@
 import heroBackground from '@/assets/hero-background.jpg';
 import logo from '@/assets/logo.svg';
 const Hero = () => {
-  return <section className="relative min-h-[45vh] md:min-h-[50vh] flex items-start justify-center hero-gradient pt-40 md:pt-48\n">
+  return <section className="relative z-10 flex flex-col items-center justify-center gap-2 text-center translate-y-24 md:translate-y-32\n\n">
       <div style={{
       backgroundImage: `url(${heroBackground})`,
       backgroundSize: 'cover',
