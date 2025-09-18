@@ -1,4 +1,8 @@
 {
+  "redirects": [
+    { "source": "http://(.*)", "destination": "https://mullinsdigitalventures.com", "permanent": true },
+    { "source": "www.mullinsdigitalventures.com", "destination": "https://mullinsdigitalventures.com", "permanent": true }
+  ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/" }
   ]
