@@ -4,7 +4,7 @@ const About = () => {
         <h2 className="text-4xl font-bold mb-12 text-brand-navy">
           About Us
         </h2>
-        <p className="text-lg leading-relaxed text-brand-slate">Mullins Digital Ventures LLC is a U.S.-registered company in Wyoming, dedicated to building ventures at the intersection of AI, digital products, and media innovation. Our focus is on creating tools, platforms, and strategies that empower individuals and businesses in the digital economy. With an emphasis on innovation, adaptability, and measurable outcomes, we position ourselves as a reliable partner for forward-thinking growth.</p>
+        <p className="text-lg leading-relaxed text-brand-slate">Mullins Digital Ventures LLC is a U.S.-registered company in Wyoming, dedicated to building ventures at the intersection of AI, digital products, and media innovation. We focus on creating tools, platforms, and strategies that empower individuals and businesses in the digital economy. With an emphasis on innovation, adaptability, and measurable outcomes, we position ourselves as a reliable partner for forward-thinking growth.</p>
       </div>
     </section>;
 };
