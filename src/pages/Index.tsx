@@ -4,12 +4,14 @@ import About from '@/components/About';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 const Index = () => {
-  return <div className="min-h-screen">
+  return (
+    <main className="min-h-screen" role="main">
       <Hero />
       <Services />
       <About />
       <Contact />
       <Footer />
-    </div>;
+    </main>
+  );
 };
 export default Index;
