@@ -12,7 +12,7 @@ const Hero = () => {
         <p className="text-white/80 mb-0 mt-0 font-normal text-3xl my-px mx-[3px] px-[240px] py-0">
           Transforming Digital Landscapes
         </p>
-        <p className="text-xl text-white/90 leading-relaxed font-medium max-w-2xl mt-0 text-center px-px my-px mx-px py-[36px] md:text-2xl">
+        <p className="text-xl text-white/90 leading-relaxed font-medium max-w-2xl mt-0 text-center px-0 py-[43px] my-px mx-[106px] md:text-2xl">
           Building global ventures at the intersection of AI, digital products, and media innovation
         </p>
       </div>
