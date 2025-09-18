@@ -7,12 +7,12 @@ const Hero = () => {
       backgroundSize: 'cover',
       backgroundPosition: 'center'
     }} />
-      <div className="relative z-10 flex flex-col items-center justify-center gap-1 text-center px-6">
+      <div className="relative z-10 flex flex-col items-center justify-center gap-1 text-center mx-0 px-[20px]">
         <img src={logo} alt="Mullins Digital Ventures" className="w-[85%] max-w-4xl object-contain filter drop-shadow-lg mix-blend-screen opacity-100\n" />
-        <p className="text-white/80 font-normal mb-1 mt-0 text-5xl">
+        <p className="text-white/80 font-normal mb-1 mt-0 text-7xl">
           Transforming Digital Landscapes
         </p>
-        <p className="text-xl md:text-2xl text-white/90 leading-relaxed font-medium max-w-2xl mt-0 text-center">
+        <p className="text-xl text-white/90 leading-relaxed font-medium max-w-2xl mt-0 text-center mx-0 py-[80px] md:text-3xl">
           Building global ventures at the intersection of AI, digital products, and media innovation
         </p>
       </div>
