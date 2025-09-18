@@ -15,7 +15,7 @@ const services = [{
 const Services = () => {
   return <section id="services" className="mx-0 my-0 px-[27px] py-[10px]">
       <div className="max-w-6xl mx-auto py-0">
-        <h2 className="font-bold text-center mb-16 text-brand-navy py-0 px-0 mx-[2px] my-[42px] text-5xl">
+        <h2 className="font-bold text-center mb-16 text-brand-navy my-0 mx-[3px] px-0 text-5xl py-[20px]">
           Our Services
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
