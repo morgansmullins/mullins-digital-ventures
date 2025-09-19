@@ -5,7 +5,7 @@ import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 const Index = () => {
   return (
-    <main className="min-h-screen" role="main">
+    <main className="w-full max-w-[100vw] overflow-x-hidden" role="main">
       <Hero />
       <Services />
       <About />
