@@ -12,8 +12,8 @@ const Hero = () => {
         <h1 className="w-full text-xl sm:text-2xl md:text-4xl lg:text-5xl text-white/80 font-semibold leading-tight px-2 xl:text-5xl">
           Transforming Digital Landscapes
         </h1>
-        <p className="w-full break-words text-xs sm:text-sm md:text-lg lg:text-xl text-white/90 leading-relaxed max-w-[90vw] sm:max-w-md md:max-w-2xl px-[28px] text-center mx-0 py-[46px] my-[18px] font-light xl:text-3xl">Building global ventures at the intersection of AI 
-Digital products, and Media Innovation</p>
+        <p className="w-full break-words text-xs sm:text-sm md:text-lg lg:text-xl text-white/90 leading-relaxed max-w-[90vw] sm:max-w-md md:max-w-2xl px-[28px] text-center mx-0 py-[46px] my-[18px] font-light xl:text-3xl">Building global ventures at the intersection of
+ AI, Digital products, and Media Innovation</p>
       </div>
     </section>;
 };
